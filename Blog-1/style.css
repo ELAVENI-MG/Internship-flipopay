@@ -1,0 +1,113 @@
+
+*
+{
+    box-sizing:border-box;
+}
+body
+{
+    background-color:aliceblue;
+    font-family: 'Times New Roman', Times, serif;
+    margin: 0;
+    padding: 0;
+}
+
+.details
+{
+    display:flex;
+    justify-content: space-between;
+    background:lightcyan;
+}
+
+.details ul
+{
+    margin: 30px;
+   
+
+}
+
+.details li
+{
+    display:inline-block;
+    
+
+}
+
+.details  a 
+{
+    text-decoration: none; 
+    color: darkblue; 
+    display: block;
+    padding: 20px 5px;
+    text-transform: uppercase;
+    font-weight:bold;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 18px;
+    
+}
+
+.details a:hover
+{
+    background-color: grey;
+}
+
+.button
+{
+    background-color: darkblue;
+    padding:15px 60px;
+    text-align: right;
+}
+
+h1
+{
+    color:darkblue;
+    padding: 20px;
+    margin: 20px;
+}
+
+h2
+{
+    color:blue;
+    margin:20px;
+}
+
+h3,p
+{
+    color:black;
+    margin:20px;
+}
+
+.content
+{
+    width:900px;
+    padding:20px;
+    text-align: center;
+}
+image,.logo
+{
+    display:flex;
+    justify-content: center;
+}
+
+.image,.image1,.logo img
+{
+    margin: 10px;
+} 
+
+.login,.sign_up
+{
+    text-align: center;
+    margin:100px;
+    background-color: lightcyan;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.login,#name,#password,#email,#confirm_password
+{
+    
+    margin-bottom:20px;
+    padding:5px;
+}
+#name
+{
+    margin-top: 10px;
+}
+

@@ -1,0 +1,590 @@
+*
+{
+    margin:0;
+    padding:0;
+    font-family: Montserrat;
+    box-sizing: border-box;
+}
+.dashboard
+{
+    height: 100hv;
+    display: grid;
+    grid-template-columns: 248px auto;
+    grid-template-rows: 84.92px auto;
+}
+
+aside
+{
+    grid-row: 1/3;
+    background-color: white;
+}
+
+nav
+{
+    background-color: white;
+    width: 1262px;
+    height: 85px;
+}
+main
+{
+    background-color: whitesmoke;
+  
+}
+
+.container1
+{
+    height:100vh;
+    padding:10px;
+    width: 249px;
+    height: 1075px;
+ 
+}
+
+.menu
+{  
+    list-style:none;
+}
+
+.menu li
+{
+    padding:1rem;
+}
+
+
+
+.menu li:hover
+{
+    background-color: whitesmoke;
+    width:auto;
+}
+
+
+.menu a
+{
+    text-decoration: none;
+    display:flex;
+    padding-left:10px;
+    padding-top:10px;
+    color:black;
+    gap:10px; 
+}
+
+.menu a:hover
+{
+    color:blue;
+}
+
+.h2tag
+{
+    padding: 12px 10px;
+    text-transform: uppercase;
+}
+
+.container2
+{
+    display:flex;
+    justify-content: space-between;
+    padding-top:24px;
+ 
+}
+
+.para
+{
+    padding-right: 10px;
+}
+
+.div1
+{
+    display:flex;
+    gap:30px;
+}
+
+.div2
+{
+    display:flex;
+    gap:3px;
+}
+
+.main-content
+{
+    padding:25px;
+}
+
+.main-content h2
+{
+    padding-bottom: 20px;
+}
+
+.main1
+{
+    height:29px;
+    width:88px;
+    padding-bottom: 10px;
+}
+
+.main2
+{
+    background-color: white;
+    padding: 25px;
+    width: 1193px;
+    height: 884px;
+}
+
+.main5-first , .main5-second , .main5-third
+{
+    border:1px solid black;
+    padding:10px;
+    margin-right:20px;
+}
+
+.search1
+{
+    display:flex;
+    justify-content: space-between;
+    
+}
+
+.main3
+{
+    display:flex;
+}
+.dropdown
+{
+    padding:10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.ticket
+{
+    padding:10px;
+    width:128px;
+    background-color: blueviolet;
+}
+
+#search
+{
+    padding:10px;
+}
+
+.main4
+{
+    display:flex;
+    padding-top:30px;
+    padding-bottom:20px;
+    gap:80px;
+}
+
+.Notactive
+{
+    text-decoration: none;
+    color:grey;
+}
+
+.active 
+{
+    color:blueviolet;   
+    text-decoration:underline; 
+    text-underline-offset: 9px;
+    text-decoration-thickness: 4px;
+    
+}
+
+.main5
+{
+    margin-bottom:10px;
+}
+
+.main5-first , .main5-second , .main5-third
+{
+    border:1px solid grey;
+    border-radius: 5px;
+    padding:10px;
+    margin:5px;
+    margin-bottom:20px;
+    width:1154px;
+    height:190px;
+}
+
+
+
+.main5-first a
+{
+    text-decoration: none;
+    color:black;
+}
+.main5-second a
+{
+    text-decoration: none;
+    color:black;
+}
+.main5-third a
+{
+    text-decoration: none;
+    color:black;
+}
+
+.posted1,.openticket
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.posted1-second
+{
+    padding-top:5px;
+}
+
+.openticket-second a
+{
+    text-decoration: underline;
+    color:blue;
+}
+
+.openticket
+{
+    padding-top: 10px;
+}
+
+.pagination a
+{
+    color:black;
+    float:right;
+    padding: 8px 16px;
+    text-decoration: none;    
+}
+
+.pagination a.active
+{
+    background-color: blueviolet;
+    color:white;
+} 
+
+.posted2 p
+{
+    padding-top:10px;
+}
+
+#dropdown1
+{
+    border-radius: 20px;
+}
+
+.box1
+{
+    border:1px solid grey;
+    padding:10px;
+    padding-left:5px;
+    border-radius: 5px;
+}
+
+.box1 a
+{
+    text-decoration: none;
+    color:grey;
+    gap: 5px;
+}
+.box2
+{
+    border:1px solid grey;
+    padding:10px 15px;
+    background-color: blueviolet;
+    border-radius: 5px;
+}
+
+.box2 a
+{
+    text-decoration: none;
+    color:white;
+    gap: 5px;
+}
+
+.main3-first
+{
+    padding-right:4px;
+}
+
+.posted1-first
+{
+    display:flex;
+}
+
+#button
+{
+    margin-left: 20px;
+    padding:5px;
+    color:red;
+    font-weight: bold;
+}
+
+.posted1-second,.lorem,.dropdown
+{
+    color:rgb(43, 13, 13);
+}
+
+.openticket-first a
+{
+    color:grey;
+}
+
+
+@media screen and (max-width: 992px) {
+    body {
+      background-color: blue !important;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    body {
+      background-color: olive !important;
+    }
+  }
+
+/* .dashboard{
+    background-color: yellow !important;
+} */
+
+/* .container1{
+    background-color: pink;
+} */
+
+
+/* 
+.flex
+{
+    display: flex;
+}
+
+
+
+.container1
+{
+    width:20%;
+    height:100vh;
+    padding:20px; 
+ 
+}
+
+.para
+{
+    width:50%;
+    padding-bottom:25px;
+    height:fit-content;
+}
+
+.container2
+{
+    width:100%;
+    justify-content: space-between;
+    padding-top:25px;
+    height:50px;
+    position:relative;
+}
+                                                
+.div1
+{
+    width:100%;
+    justify-content:flex-end; 
+    padding-right:60px;    
+}
+
+.div2
+{
+    padding-left:60px;
+}
+
+.h2tag
+{
+    padding-bottom: 20px;
+    text-transform: uppercase;
+}
+
+#dropdown
+{
+    height:30px;
+    border-radius: 30px;
+    padding-left:10px;
+}
+
+.img
+{
+    padding-right:3px;
+}
+
+.menu
+{
+    position:relative;
+    list-style:none;
+}
+
+.menu li
+{
+    padding:1rem;
+}
+
+.menu li:hover
+{
+    background-color: whitesmoke;
+    width:auto;
+}
+
+.menu a
+{
+    text-decoration: none;
+    display:flex;
+    padding-left:10px;
+    padding-top:10px;
+    
+}
+
+.main-content
+{
+    position:absolute;
+    top:75px;
+    left:260px;
+    width:100%;
+    background-color: whitesmoke;
+    overflow-x:hidden;
+    overflow-y: scroll;
+  
+}
+
+.main1
+{
+    padding:20px;
+}
+
+#search
+{
+    padding: 10px;
+    margin:20px;
+    top:0;
+}
+
+.dropdown
+{
+    padding:10px; 
+}
+
+.ticket
+{
+    padding:10px;
+    width:100px;
+    background-color: blueviolet;
+    
+}
+
+.main2
+{
+    display:flex;
+    height:100vh; 
+    position:relative;
+    
+}
+
+.search1
+{
+    display:flex;
+    
+}
+
+
+
+.search
+{
+
+    height:40px;
+} 
+.box
+{
+    border:1px solid black;
+    margin:20px;
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+
+.main4 ul
+{
+    position:absolute;
+    left:30px;
+    top:120px;
+    display:flex;
+    list-style:none;    
+
+}
+
+
+.main4 ul li
+{
+    padding-right:120px;
+}
+
+.active
+{
+    color:blueviolet;   
+    text-decoration:underline; 
+    text-underline-offset: 7px;
+    text-decoration-thickness: 4px;
+    /* border-bottom:4px solid blueviolet; 
+    
+}
+
+
+.hidden
+{
+    display: block;
+}
+
+.main5
+{
+    flex-direction: column;
+    position: absolute;
+    left:30px;
+    top:160px;
+    gap:20px;
+}
+
+.main5-first , .main5-second , .main5-third
+{
+    border:1px solid black;
+    padding:10px;
+    margin-right:20px;
+}
+
+.main5-first a
+{
+    text-decoration: none;
+    color:black;
+}
+.main5-second a
+{
+    text-decoration: none;
+    color:black;
+}
+.main5-third a
+{
+    text-decoration: none;
+    color:black;
+}
+
+.pagination
+{
+    display:inline-block;
+}
+
+.pagination a
+{
+    color:black;
+    float:right;
+    padding: 8px 16px;
+    text-decoration: none;
+    
+    
+}
+
+.pagination a.active
+{
+    background-color: blueviolet;
+    color:white;
+} */
