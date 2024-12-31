@@ -1,0 +1,207 @@
+* 
+{
+    box-sizing:border-box;
+}
+
+body
+{
+  border-top:20px solid blue; 
+  position:relative; 
+  border:20px solid red;
+
+}
+
+h1,h2,p
+{
+    font-family:sans-serif;
+
+}
+
+
+h1{
+    color:blue;
+    font-size:26px;
+    text-transform:uppercase;
+    font-style:italic;
+}
+
+h2
+{
+    font-size:40px;
+    font-weight:bold;
+}
+
+p
+{
+    font-size:22px;
+    line-height:1.6;
+}
+
+ul
+{
+    list-style:none;
+}
+
+.para
+{
+    color:rgba(23,67,43);
+
+}
+
+li:first-child
+{
+    font-weight:bold;
+
+}
+
+li:last-child
+{
+    font-style:italic;
+    font-weight:bold;
+}
+
+li:nth-child(even)
+{
+    color:red;
+}
+
+li:nth-child(odd)
+{
+    color:green;
+}
+
+.links:visited{
+    color:red;
+}
+
+.links:hover{
+    color:blue;
+}
+
+.links{
+    color:green;
+}
+
+.para1
+{
+    color:blue !important; /* !important rule*/
+}
+
+#para1
+{
+    color:blueviolet;
+}
+
+a:link
+{
+    font-size:18px; 
+}
+
+/* collapsing margin */
+h4
+{
+    padding-bottom:40px;
+}
+
+h5
+{
+    padding-top:30px;
+}
+
+/* width:100% original content will be 100% for the page if it resizes. */
+
+.container
+{
+    width:500px;  /*for centering the content */
+    margin-left:auto;
+    margin-right:auto;
+}   
+
+.h5tag a
+{
+    background-color:brown;
+    margin:20px;
+    padding:20px;
+    display:block;
+}
+
+.link1 a:link 
+{
+    display:inline;
+    padding-right: 10px;
+    height:30px;
+}
+
+button
+{
+    font-size:22px;
+    padding:18px;
+    cursor:pointer;
+    position:absolute;
+    right:0;
+}
+
+h1::first-letter
+{
+    font-style:normal;
+    margin-right:5px;
+}
+
+p::first-line
+{
+    color:gold;
+}
+
+h2::after
+{
+    content:"TOP";
+    background-color:yellow;
+    font-size:15px;
+    font-weight:bold;
+    display:inline-block;
+    padding:10px 20px;
+    margin-left:10px;
+
+}
+
+/* flex-box */
+
+.el1,.el7,.el4
+{
+    background-color:violet;
+}
+.el2,.el6,.el8
+{
+    background-color:red;
+}
+.el3,.el5
+{
+    background-color:green;
+    height:150px;
+}
+
+/* it will become last and order:-1 make it first one */
+.el6
+{
+    order: 1; 
+}
+
+.content
+{
+    font-family:sans-serif;
+    background-color:#ddd;
+    font-size:30px;
+    margin:40px;
+    display:flex;
+    align-items:stretch;
+    justify-content:center;
+}
+
+.el
+{   
+    /* flex-shrink: 1;
+     Evenly divide the space betwween them 
+    flex-grow: 1;*/
+    flex:1; 
+}
+

@@ -1,0 +1,36 @@
+
+
+.container
+{
+    display:flex;
+    align-items:center;
+    justify-content: space-between;
+
+}
+
+.related-post
+{
+    display:flex;
+    align-items:center;
+    margin-bottom: 15px;
+}
+
+.related-author
+{
+    margin-bottom:0;
+    font-size:14px;
+    font-weight:normal;
+    font-style:italic;
+}
+
+.related-link:link{
+    font-size:17px;
+    font-weight:bold;
+    font-style:normal;
+}
+
+.row
+{
+    display:flex;
+    gap:75px;
+}
