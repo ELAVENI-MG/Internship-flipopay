@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input box</title>
+    <link rel="stylesheet" href="index.css"/>
+   
+</head>
+<body>
+    <div class="inputbox">
+        <div class="div1">
+            <div class="div2">
+                <h1 class="h1tag">Input Box</h1>
+                <div class="div2-first">
+                    <div>
+                        <input id="input1" class="dynamic" type="text" placeholder="Enter input1"/>
+                        <input id="input2" class="dynamic" type="text" placeholder="Enter input2"/>
+                    </div>
+                    <div>
+                        <button type="submit" id="button1">Submit</button>
+                    </div>
+                </div>
+            </div>
+            <!-- <div class="div3">
+                <div class="div3-first">
+                    <h1 class="h1tag">Display the Input box content</h1>
+                    <div id="input3"></div>
+                </div>
+                <div class="div3-second">
+                    <button type="button" id="button2" onclick="">Edit</button>
+                    <button type="button" id="button3" onclick="">Delete</button>
+                </div>
+            </div> -->
+            <div id="input3">
+            
+            </div>
+
+        
+
+            <div class="modal-content" id="modal" class="modal1">
+                <div >
+                    <span id="close">&times;</span>
+                    <p>Are you sure delete the input? </p>
+                    
+                </div>
+                <div>
+                    <button type="button" id="yesbtn">Yes</button>
+                    <button type="button" id="nobtn">No</button>
+                </div>
+            </div>
+
+            <div class="modal-content1" id="modal1" class="modal2">
+                <div class="modal-content1-first">
+                    <span id="close1">&times;</span>
+                    <p >Edit the input</p>
+                </div>
+                <div class="modal-content1-second">
+                   <div class="modal-content1-second-one" id="div-id">
+
+                   </div>
+                   <div class="modal-content1-second-second">
+                        <button type="button" id="save-btn">Save</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
